@@ -1,0 +1,42 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/shengguozhou/Desktop/cs5008/Shengguozhou_CS5008SPRING2022/lab06'
+echo -e "\033[1;93m ----------------"
+echo NEED GTEST ZIP
+echo -e "----------------\033[0m"
+echo -e "\033[1;93m==========================="
+echo Extracting gtest source
+echo -e "===========================\033[0m"
+mkdir -p /Users/shengguozhou/src
+cp release-1.8.0.tar.gz /Users/shengguozhou/src/
+tar -xzmf /Users/shengguozhou/src/release-1.8.0.tar.gz -C /Users/shengguozhou/src/
+echo -e "\033[1;93m==========================="
+echo Building the GTest library
+echo -e "===========================\033[0m"
+g++ -isystem /Users/shengguozhou/src/googletest-release-1.8.0/googletest/include -I/Users/shengguozhou/src/googletest-release-1.8.0/googletest \
+		-pthread -c /Users/shengguozhou/src/googletest-release-1.8.0/googletest/src/gtest-all.cc
+ar -rv libgtest.a gtest-all.o
+mkdir -p ~/lib/gtest/
+mv libgtest.a ~/lib/gtest/
+echo -e "\033[1;93m======================================="
+echo Building test_example1.o for testing...
+echo -e "=====================================\033[0m"
+g++ -c -Wall -I /Users/shengguozhou/src/googletest-release-1.8.0/googletest/include/ test_example1.cc \
+		-o test_example1.o
+echo -e "\033[1;93m============================================"
+echo Building example1.o for testing...
+echo -e "============================================\033[0m"
+gcc -c -Wall -g example1.c -o example1.o
+echo -e "\033[1;93m======================================="
+echo Building Assert007.o...
+echo -e "====================================\033[0m"
+gcc -c -Wall -g Assert007.c -o Assert007.o
+echo -e "\033[1;93m==========================="
+echo Building the test suite
+echo -e "===========================\033[0m"
+g++ -o test_suite test_example1.o example1.o Assert007.o \
+		 -L/Users/shengguozhou/lib/gtest -lgtest -lpthread
+echo -e "\033[38;5;198m===================================="
+echo Run tests by running ./test_suite
+echo -e "====================================\033[0m"
+make: Leaving directory `/Users/shengguozhou/Desktop/cs5008/Shengguozhou_CS5008SPRING2022/lab06'
+ 

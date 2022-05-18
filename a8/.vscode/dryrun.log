@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/shengguozhou/Desktop/cs5008/Shengguozhou_CS5008SPRING2022/Shengguozhou_CS5008SPRING2022/a8'
+gcc -pthread -o mt_search mt_search.c
+make: Leaving directory `/Users/shengguozhou/Desktop/cs5008/Shengguozhou_CS5008SPRING2022/Shengguozhou_CS5008SPRING2022/a8'
+ 

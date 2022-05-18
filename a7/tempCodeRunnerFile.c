@@ -1,0 +1,1 @@
+HashTableInsert(d, ch_order, ch_o);

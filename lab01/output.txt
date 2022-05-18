@@ -1,0 +1,134 @@
+-bash-4.2$ cd CS5008/
+-bash-4.2$ man sort
+man: can't set the locale; make sure $LC_* and $LANG are correct
+-bash-4.2$ ls
+README.md  Shengguozhou_CS5008SPRING2022  lab01
+-bash-4.2$ cd Shengguozhou_CS5008SPRING2022/
+-bash-4.2$ ls
+-bash-4.2$ rmdir Shengguozhou_CS5008SPRING2022
+rmdir: failed to remove 'Shengguozhou_CS5008SPRING2022': No such file or directory
+-bash-4.2$ LS
+-bash: LS: command not found
+-bash-4.2$ ls
+-bash-4.2$ 
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+README.md  Shengguozhou_CS5008SPRING2022  lab01
+-bash-4.2$ rmdir Shengguozhou_CS5008SPRING2022/
+rmdir: failed to remove 'Shengguozhou_CS5008SPRING2022/': Directory not empty
+-bash-4.2$ cd Shengguozhou_CS5008SPRING2022/
+-bash-4.2$ ls
+-bash-4.2$ cd ..
+-bash-4.2$ cd lab01/
+-bash-4.2$ ls
+output.txt
+-bash-4.2$ emacs output.txt 
+
+-bash-4.2$ ls
+output.txt
+-bash-4.2$ cat output.txt 
+test test
+-bash-4.2$ -bash-4.2$ cd CS5008/
+-bash-4.2$ man sort
+man: can't set the locale; make sure $LC_* and $LANG are correct
+-bash-4.2$ ls
+README.md  Shengguozhou_CS5008SPRING2022  lab01
+-bash-4.2$ cd Shengguozhou_CS5008SPRING2022/
+-bash-4.2$ ls
+-bash-4.2$ rmdir Shengguozhou_CS5008SPRING2022
+rmdir: failed to remove 'Shengguozhou_CS5008SPRING2022': No such file or directory
+-bash-4.2$ LS
+-bash: LS: command not found
+-bash-4.2$ ls
+-bash-4.2$ 
+-bash-4.2$ cd ..
+-bash-4.2$ ls
+README.md  Shengguozhou_CS5008SPRING2022  lab01
+-bash-4.2$ rmdir Shengguozhou_CS5008SPRING2022/
+rmdir: failed to remove 'Shengguozhou_CS5008SPRING2022/': Directory not empty
+-bash-4.2$ cd Shengguozhou_CS5008SPRING2022/
+-bash-4.2$ ls
+-bash-4.2$ cd ..
+-bash-4.2$ cd lab01/
+-bash-4.2$ ls
+output.txt
+-bash-4.2$ emacs output.txt 
+
+-bash-4.2$ ls
+output.txt
+-bash-4.2$ cat output.txt 
+test test
+-bash-4.2$ test test
+
+-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+-bash-4.2$ ls
+CS5008  class1
+-bash-4.2$ cd CS5008/
+-bash-4.2$ ls
+README.md  Shengguozhou_CS5008SPRING2022  lab01
+-bash-4.2$ cd lab01/
+-bash-4.2$ ls
+output.txt  readme.md  readme.md~
+-bash-4.2$ nl output.txt 
+     1	   -bash-4.2$ cd CS5008/
+     2	   -bash-4.2$ man sort
+     3	   man: can't set the locale; make sure $LC_* and $LANG are correct
+     4	   -bash-4.2$ ls
+     5	   README.md  Shengguozhou_CS5008SPRING2022  lab01
+     6	   -bash-4.2$ cd Shengguozhou_CS5008SPRING2022/
+     7	   -bash-4.2$ ls
+     8	   -bash-4.2$ rmdir Shengguozhou_CS5008SPRING2022
+     9	   rmdir: failed to remove 'Shengguozhou_CS5008SPRING2022': No such file or directory
+    10	   -bash-4.2$ LS
+    11	   -bash: LS: command not found
+    12	   -bash-4.2$ ls
+    13	   -bash-4.2$ 
+    14	   -bash-4.2$ cd ..
+    15	   -bash-4.2$ ls
+    16	   README.md  Shengguozhou_CS5008SPRING2022  lab01
+    17	   -bash-4.2$ rmdir Shengguozhou_CS5008SPRING2022/
+    18	   rmdir: failed to remove 'Shengguozhou_CS5008SPRING2022/': Directory not empty
+    19	   -bash-4.2$ cd Shengguozhou_CS5008SPRING2022/
+    20	   -bash-4.2$ ls
+    21	   -bash-4.2$ cd ..
+    22	   -bash-4.2$ cd lab01/
+    23	   -bash-4.2$ ls
+    24	   output.txt
+    25	   -bash-4.2$ emacs output.txt 
+       
+    26 -bash-4.2$ ls
+    27 output.txt
+    28 -bash-4.2$ cat output.txt 
+    29 test test
+    30 -bash-4.2$ -bash-4.2$ cd CS5008/
+    31 -bash-4.2$ man sort
+    32 man: can't set the locale; make sure $LC_* and $LANG are correct
+    33 -bash-4.2$ ls
+    34 README.md  Shengguozhou_CS5008SPRING2022  lab01
+    35 -bash-4.2$ cd Shengguozhou_CS5008SPRING2022/
+    36 -bash-4.2$ ls
+    37 -bash-4.2$ rmdir Shengguozhou_CS5008SPRING2022
+    38 rmdir: failed to remove 'Shengguozhou_CS5008SPRING2022': No such file or directory
+    39 -bash-4.2$ LS
+    40 -bash: LS: command not found
+    41 -bash-4.2$ ls
+    42 -bash-4.2$ 
+    43 -bash-4.2$ cd ..
+    44 -bash-4.2$ ls
+    45 README.md  Shengguozhou_CS5008SPRING2022  lab01
+    46 -bash-4.2$ rmdir Shengguozhou_CS5008SPRING2022/
+    47 rmdir: failed to remove 'Shengguozhou_CS5008SPRING2022/': Directory not empty
+    48 -bash-4.2$ cd Shengguozhou_CS5008SPRING2022/
+    49 -bash-4.2$ ls
+    50 -bash-4.2$ cd ..
+    51 -bash-4.2$ cd lab01/
+    52 -bash-4.2$ ls
+    53 output.txt
+    54 -bash-4.2$ emacs output.txt 
+       
+    55 -bash-4.2$ ls
+    56 output.txt
+    57 -bash-4.2$ cat output.txt 
+    58 test test
+    59 -bash-4.2$ test test
+-bash-4.2$ 

@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/shengguozhou/Desktop/cs5008/Shengguozhou_CS5008SPRING2022/Shengguozhou_CS5008SPRING2022/lab11'
+gcc kk_client.c -o kk_client
+gcc kk_server.c -o kk_server
+gcc echo_client.c -o echo_client
+gcc echo_server.c -o echo_server
+make: Leaving directory `/Users/shengguozhou/Desktop/cs5008/Shengguozhou_CS5008SPRING2022/Shengguozhou_CS5008SPRING2022/lab11'
+ 
